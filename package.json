@@ -1,0 +1,16 @@
+{
+  "name": "davet-dogrulama-botu",
+  "version": "1.0.0",
+  "description": "Discord.js v14 ile davet kodu, doğrulama ve otomatik rol yönetim botu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.8"
+  }
+}
